@@ -115,6 +115,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Driver.cpp" />
+    <ClCompile Include="randomStream.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="randomStream.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
