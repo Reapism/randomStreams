@@ -76,6 +76,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>E:\All Files\Programs\C++\randomStream\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -117,9 +118,15 @@
   <ItemGroup>
     <ClCompile Include="Driver.cpp" />
     <ClCompile Include="randomStream.cpp" />
+    <ClCompile Include="stack.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="mysteryStack.h" />
     <ClInclude Include="randomStream.h" />
+    <ClInclude Include="stack.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="C:\Users\Reapism\Downloads\BCS370_assignment_2\BCS370_assignment_2\Lib\BCS370_mysteryStack_lib.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -3,8 +3,6 @@ randomStream.h
 Contains the class definition and function prototypes 
 */
 
-
-// same as #pragma once but more portable
 #ifndef randomStream
 #define H_randomStream
 
@@ -38,7 +36,8 @@ public:
 	}
 
 	/*
-	Generates numIter letters random numbers numIter times from 
+	Generates numIter letters random numbers numIter 
+	times from INT_MIN - INT_MAX.
 	*/
 	void genRndNum(std::string fileName,int& numIter);
 
